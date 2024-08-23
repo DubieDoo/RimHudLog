@@ -1,0 +1,34 @@
+[[RimHUD v1.15.3 Auto-deactivation report]]
+Exception has been thrown by the target of an invocation.
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Trace:
+[mscorlib] Exception has been thrown by the target of an invocation.
+[Ref C8EA8E45]
+ at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) 
+ at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) 
+ at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) 
+ at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) 
+ at System.Activator.CreateInstance[T] () 
+ at RimHUD.Interface.Hud.HudWidget+<>c__16`1[T].<FromModel>b__16_0 (RimHUD.Interface.Hud.HudArgs args) 
+ at RimHUD.Interface.Hud.HudWidget.Build (RimHUD.Interface.Hud.HudArgs args) 
+ at RimHUD.Interface.Hud.HudContent.GetWidget (System.String id, RimHUD.Interface.Hud.HudArgs args) 
+ at RimHUD.Interface.Hud.Layers.WidgetLayer.Build () 
+ at RimHUD.Interface.Hud.Layers.RowLayer.Prepare () 
+ at RimHUD.Interface.Hud.Layers.PanelLayer+<>c.<Prepare>b__11_0 (RimHUD.Interface.Hud.Layers.RowLayer row) 
+ at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].ToArray () 
+ at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) 
+ at RimHUD.Interface.Hud.Layers.PanelLayer.Prepare () 
+ at RimHUD.Interface.Hud.Layers.HStackLayer+<>c.<Prepare>b__4_0 (RimHUD.Interface.Hud.Layers.BaseLayer container) 
+ at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].MoveNext () 
+ at System.Linq.Enumerable.Max (System.Collections.Generic.IEnumerable`1[T] source) 
+ at RimHUD.Interface.Hud.Layers.HStackLayer.Prepare () 
+ at RimHUD.Interface.Hud.Layers.VStackLayer+<>c.<Prepare>b__5_0 (RimHUD.Interface.Hud.Layers.BaseLayer container) 
+ at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].MoveNext () 
+ at RimHUD.Interface.Hud.Layers.VStackLayer.Prepare () 
+ at RimHUD.Interface.Hud.Layers.LayoutLayer.Draw (UnityEngine.Rect rect) 
+[[RimHUD v1.15.3 Auto-deactivation report]]
+Exception has been thrown by the target of an invocation.
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
